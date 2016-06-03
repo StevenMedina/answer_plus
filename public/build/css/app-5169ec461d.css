@@ -1,0 +1,12 @@
+html, body {
+  height: 100%; }
+
+body {
+  margin: 20;
+  padding: 20;
+  width: 100%;
+  display: table;
+  font-weight: 100;
+  font-family: 'Lato'; }
+
+/*# sourceMappingURL=app.css.map */
