@@ -20,6 +20,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/user/">Listar Usuarios</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/documentation/">Documentación</a>
+            </li>
           </ul>
         </nav>
 
