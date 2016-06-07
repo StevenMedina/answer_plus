@@ -1,14 +1,15 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+$blue: #428bca;
+
 html, body {
     height: 100%;
 }
 
 body {
-    margin: 20;
-    padding: 20;
-    width: 100%;
-    display: table;
     font-weight: 100;
-    font-family: 'Lato';
+}
+
+.content {
+    margin-top: 20px;
 }
