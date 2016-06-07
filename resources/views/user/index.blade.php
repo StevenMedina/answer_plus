@@ -5,7 +5,7 @@
 
     @foreach ( $users as $user )
         <div>
-            {{ $user->name }}
+            <a href="/user/{{ $user->id }}">{{ $user->name }}</a>
         </div>
     @endforeach
 @stop
