@@ -4,7 +4,7 @@
     <div class="row">
         <h2>Form</h2>
 
-        <form>
+        <form method="post" action="../user">
             <fieldset class="form-group">
                 <label for="name">Nombre</label>
                 <input class="form-control" type="text" id="name" name="name" placeholder="Nombre">
@@ -17,7 +17,7 @@
 
             <fieldset class="form-group">
                 <label for="email">Correo Electronico</label>
-                <input class="form-control" type="email" id="email" placeholder="Correo Electronico">
+                <input class="form-control" type="email" id="email" name="email" placeholder="Correo Electronico">
             </fieldset>
 
             <fieldset class="form-group">
@@ -30,7 +30,7 @@
                 <input class="form-control" type="password" id="r_password" placeholder="Repetir Contraseña">
             </fieldset>
 
-            <button class="btn btn-success" type="button">Enviar</button>
+            <button type="submit" class="btn btn-success" type="button">Enviar</button>
         </form>
     </div>
 @stop

@@ -19,6 +19,7 @@ Route::resource('user', 'UserController');
 
 Route::get('/user', 'UserController@index');
 Route::get('/user/{user}', 'UserController@show');
+Route::post('/user', 'UserController@store');
 
 // Documentacion
 
