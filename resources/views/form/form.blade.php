@@ -7,17 +7,30 @@
         <form>
             <fieldset class="form-group">
                 <label for="name">Nombre</label>
-                <input class="form-control" type="text" name="name" placeholder="Nombre">
+                <input class="form-control" type="text" id="name" name="name" placeholder="Nombre">
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="user">Usuario</label>
-                <input class="form-control" type="text" name="name" placeholder="Usuario">
+                <input class="form-control" type="text" id="user" name="user" placeholder="Usuario">
             </fieldset>
 
+            <fieldset class="form-group">
+                <label for="email">Correo Electronico</label>
+                <input class="form-control" type="email" id="email" placeholder="Correo Electronico">
+            </fieldset>
 
+            <fieldset class="form-group">
+                <label for="password">Contraseña</label>
+                <input class="form-control" type="password" id="password" name="password" placeholder="Contraseña">
+            </fieldset>
+
+            <fieldset class="form-group">
+                <label for="r_password">Repetir Contraseña</label>
+                <input class="form-control" type="password" id="r_password" placeholder="Repetir Contraseña">
+            </fieldset>
+
+            <button class="btn btn-success" type="button">Enviar</button>
         </form>
     </div>
-
-
 @stop
