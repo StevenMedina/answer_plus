@@ -5,6 +5,9 @@
         <h2>Form</h2>
 
         <form method="post" action="../user">
+
+            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
             <fieldset class="form-group">
                 <label for="name">Nombre</label>
                 <input class="form-control" type="text" id="name" name="name" placeholder="Nombre">
