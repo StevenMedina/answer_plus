@@ -4,9 +4,8 @@
     <div class="row">
         <h2>Form</h2>
 
-        <form method="post" action="../user">
-
-            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <form method="POST" action="{{ url('/user') }">
+            {{ csrf_field() }}
 
             <fieldset class="form-group">
                 <label for="name">Nombre</label>

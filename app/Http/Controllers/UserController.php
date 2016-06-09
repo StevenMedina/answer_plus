@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use DB;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -36,9 +37,10 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request, User $user)
     {
-        return $request->all();
+        DB::table('users')->insert($request->all());
+        return view('user.show', compact('user'));
     }
 
     /**
