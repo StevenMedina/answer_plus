@@ -40,7 +40,7 @@ class UserController extends Controller
     public function store(Request $request, User $user)
     {
         DB::table('users')->insert($request->all());
-        return view('user.show', compact('user'));
+        return view('user.index');
     }
 
     /**
