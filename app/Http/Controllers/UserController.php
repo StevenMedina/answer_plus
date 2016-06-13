@@ -6,6 +6,7 @@ use DB;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use DateTime;
 
 class UserController extends Controller
 {
@@ -39,8 +40,19 @@ class UserController extends Controller
      */
     public function store(Request $request, User $user)
     {
-        DB::table('users')->insert($request->all());
-        return view('user.index');
+        // DB::table('users')->insert($request->all());
+
+        DB::table('users')->insert([
+            'name'          => $request->name,
+            'user'          => $request->user,
+            'password'      => bcrypt($request->password),
+            'email'         => $request->email,
+            'created_at'    => new DateTime(),
+            'updated_at'    => new DateTime(),
+            '_token'        => $request->_token
+        ]);
+
+        return view('user.show', compact('user'));
     }
 
     /**
