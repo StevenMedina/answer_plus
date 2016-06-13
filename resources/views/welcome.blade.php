@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron">
         <h1 class="display-3">Bienvenido!</h1>
         <p class="lead">Esto es una API REST Hecha en Laravel, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
         <hr class="m-y-2">

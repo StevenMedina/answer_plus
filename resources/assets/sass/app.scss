@@ -1,13 +1,18 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 $blue: #428bca;
+$black: #ffffff;
 
 html, body {
+    // background: transparent url('/img/background-main.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
     height: 100%;
+    font-weight: 100;
 }
 
-body {
-    font-weight: 100;
+.bg-transparent-black {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: $black;
 }
 
 .content {
