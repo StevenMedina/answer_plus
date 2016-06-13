@@ -8,6 +8,13 @@ html, body {
     background-attachment: fixed;
     height: 100%;
     font-weight: 100;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .bg-transparent-black {
@@ -17,4 +24,8 @@ html, body {
 
 .content {
     margin-top: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: initial;
 }
