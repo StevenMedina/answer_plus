@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Bogota',
 
     /*
     |--------------------------------------------------------------------------
@@ -126,7 +126,7 @@ return [
          * Dingo API
          */
         Dingo\Api\Provider\laravelServiceProvider::class,
-        
+
         /*
          * Laravel Framework Service Providers...
          */

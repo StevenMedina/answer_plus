@@ -6,7 +6,7 @@ use DB;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Requests;
-use DateTime;
+use Carbon\Carbon;
 
 class UserController extends Controller
 {
@@ -47,8 +47,8 @@ class UserController extends Controller
             'user'          => $request->user,
             'password'      => bcrypt($request->password),
             'email'         => $request->email,
-            'created_at'    => new DateTime(),
-            'updated_at'    => new DateTime(),
+            'created_at'    => Carbon::now(),
+            'updated_at'    => Carbon::now(),
             '_token'        => $request->_token
         ]);
 
