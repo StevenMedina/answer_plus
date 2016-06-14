@@ -1,5 +1,5 @@
 html, body {
-  background-attachment: fixed;
+  background: url("/img/background/sayagata.png");
   height: 100%;
   font-weight: 100;
   display: -ms-flexbox;
