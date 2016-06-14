@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="input-field">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                    <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Enviar
                         <i class="material-icons right">send</i>
                     </button>
                 </div>

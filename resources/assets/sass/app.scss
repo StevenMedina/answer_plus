@@ -2,6 +2,12 @@
 
 $blue: #428bca;
 $black: #000000;
+$red: #e74c3c;
+$orange: #ef6c00;
+
+*, *:before, *:after {
+    box-sizing: initial;
+}
 
 html, body {
     // background: transparent url('/img/background-main.jpg') no-repeat center center/cover;
@@ -17,6 +23,10 @@ main {
     flex: 1 0 auto;
 }
 
+.error {
+    color: $red;
+}
+
 .form-register {
 
 }
@@ -30,6 +40,77 @@ main {
     margin-top: 20px;
 }
 
-*, *:before, *:after {
-    box-sizing: initial;
-}
+/* Form style */
+
+/* label color */
+ .input-field label {
+   color: #000;
+ }
+
+ /* Type: text */
+
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: $orange;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+
+/* Type: password */
+
+ .input-field input[type=password]:focus + label {
+   color: $orange;
+ }
+ /* label underline focus color */
+ .input-field input[type=password]:focus {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+ /* valid color */
+ .input-field input[type=password].valid {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+ /* invalid color */
+ .input-field input[type=password].invalid {
+   border-bottom: 1px solid $orange;
+   box-shadow: 0 1px 0 0 $orange;
+ }
+
+ /* Type: email */
+
+  .input-field input[type=email]:focus + label {
+    color: $orange;
+  }
+  /* label underline focus color */
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid $orange;
+    box-shadow: 0 1px 0 0 $orange;
+  }
+  /* valid color */
+  .input-field input[type=email].valid {
+    border-bottom: 1px solid $orange;
+    box-shadow: 0 1px 0 0 $orange;
+  }
+  /* invalid color */
+  .input-field input[type=email].invalid {
+    border-bottom: 1px solid $orange;
+    box-shadow: 0 1px 0 0 $orange;
+  }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: $orange;
+ }
