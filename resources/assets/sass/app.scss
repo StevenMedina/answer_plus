@@ -1,7 +1,7 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 $blue: #428bca;
-$black: #ffffff;
+$black: #000000;
 
 html, body {
     // background: transparent url('/img/background-main.jpg') no-repeat center center/cover;
@@ -15,6 +15,10 @@ html, body {
 
 main {
     flex: 1 0 auto;
+}
+
+.form-register {
+
 }
 
 .bg-transparent-black {

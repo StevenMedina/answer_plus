@@ -14,7 +14,7 @@ main {
 
 .bg-transparent-black {
   background-color: rgba(0, 0, 0, 0.6);
-  color: #ffffff; }
+  color: #000000; }
 
 .content {
   margin-top: 20px; }
