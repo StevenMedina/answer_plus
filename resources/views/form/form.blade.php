@@ -42,9 +42,8 @@
                     <label for="r_password">Repetir contraseña</label>
                     <input class="validate" type="password" id="r_password" name="r_password">
                 </div>
-
-                <div class="input-field">
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <div class="input-field horizontal">
+                    <button class="btn waves-effect waves-light right" type="submit" name="action">Enviar
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
