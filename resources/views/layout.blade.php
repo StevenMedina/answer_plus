@@ -34,7 +34,9 @@
         <main>
             <div class="container">
                 <div class="content">
-                    @yield('content')
+                    <div class="row">
+                        @yield('content')
+                    </div>
                 </div>
             </div>
         </main>

@@ -1,9 +1,12 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-$blue: #428bca;
-$black: #000000;
+$blue: #2C5D63;
+$black: #283739;
 $red: #e74c3c;
-$orange: #ef6c00;
+$green: #C7F464;
+$teal: #26a69a;
+$yellow-light: #F7EEBB;
+$salmon: #C44D58;
 
 *, *:before, *:after {
     box-sizing: initial;
@@ -23,8 +26,21 @@ main {
     flex: 1 0 auto;
 }
 
+nav {
+    background-color: $black;
+}
+
+footer.page-footer {
+    background-color: $black;
+}
+
 .error {
     color: $red;
+}
+
+.green-palete {
+    background-color: $green;
+    color: $black;
 }
 
 .form-register {
@@ -51,66 +67,66 @@ main {
 
  /* label focus color */
  .input-field input[type=text]:focus + label {
-   color: $orange;
+   color: $teal;
  }
  /* label underline focus color */
  .input-field input[type=text]:focus {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
  /* valid color */
  .input-field input[type=text].valid {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
  /* invalid color */
  .input-field input[type=text].invalid {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
 
 /* Type: password */
 
  .input-field input[type=password]:focus + label {
-   color: $orange;
+   color: $teal;
  }
  /* label underline focus color */
  .input-field input[type=password]:focus {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
  /* valid color */
  .input-field input[type=password].valid {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
  /* invalid color */
  .input-field input[type=password].invalid {
-   border-bottom: 1px solid $orange;
-   box-shadow: 0 1px 0 0 $orange;
+   border-bottom: 1px solid $teal;
+   box-shadow: 0 1px 0 0 $teal;
  }
 
  /* Type: email */
 
   .input-field input[type=email]:focus + label {
-    color: $orange;
+    color: $teal;
   }
   /* label underline focus color */
   .input-field input[type=email]:focus {
-    border-bottom: 1px solid $orange;
-    box-shadow: 0 1px 0 0 $orange;
+    border-bottom: 1px solid $teal;
+    box-shadow: 0 1px 0 0 $teal;
   }
   /* valid color */
   .input-field input[type=email].valid {
-    border-bottom: 1px solid $orange;
-    box-shadow: 0 1px 0 0 $orange;
+    border-bottom: 1px solid $teal;
+    box-shadow: 0 1px 0 0 $teal;
   }
   /* invalid color */
   .input-field input[type=email].invalid {
-    border-bottom: 1px solid $orange;
-    box-shadow: 0 1px 0 0 $orange;
+    border-bottom: 1px solid $teal;
+    box-shadow: 0 1px 0 0 $teal;
   }
  /* icon prefix focus color */
  .input-field .prefix.active {
-   color: $orange;
+   color: $teal;
  }

@@ -15,12 +15,22 @@ main {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
+nav {
+  background-color: #283739; }
+
+footer.page-footer {
+  background-color: #283739; }
+
 .error {
   color: #e74c3c; }
 
+.green-palete {
+  background-color: #C7F464;
+  color: #283739; }
+
 .bg-transparent-black {
   background-color: rgba(0, 0, 0, 0.6);
-  color: #000000; }
+  color: #283739; }
 
 .content {
   margin-top: 20px; }
@@ -33,63 +43,63 @@ main {
 /* Type: text */
 /* label focus color */
 .input-field input[type=text]:focus + label {
-  color: #ef6c00; }
+  color: #26a69a; }
 
 /* label underline focus color */
 .input-field input[type=text]:focus {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* valid color */
 .input-field input[type=text].valid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* invalid color */
 .input-field input[type=text].invalid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* Type: password */
 .input-field input[type=password]:focus + label {
-  color: #ef6c00; }
+  color: #26a69a; }
 
 /* label underline focus color */
 .input-field input[type=password]:focus {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* valid color */
 .input-field input[type=password].valid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* invalid color */
 .input-field input[type=password].invalid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* Type: email */
 .input-field input[type=email]:focus + label {
-  color: #ef6c00; }
+  color: #26a69a; }
 
 /* label underline focus color */
 .input-field input[type=email]:focus {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* valid color */
 .input-field input[type=email].valid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* invalid color */
 .input-field input[type=email].invalid {
-  border-bottom: 1px solid #ef6c00;
-  box-shadow: 0 1px 0 0 #ef6c00; }
+  border-bottom: 1px solid #26a69a;
+  box-shadow: 0 1px 0 0 #26a69a; }
 
 /* icon prefix focus color */
 .input-field .prefix.active {
-  color: #ef6c00; }
+  color: #26a69a; }
 
 /*# sourceMappingURL=app.css.map */
