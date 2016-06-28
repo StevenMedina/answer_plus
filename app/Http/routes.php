@@ -12,7 +12,7 @@
 */
 
 // Controller and route 'Home'
-Route::get('/', 'HomeController@home');
+Route::get('/', 'HomeController@index');
 
 // Controller and route 'User'
 Route::resource('user', 'UserController');
@@ -26,3 +26,7 @@ Route::post('/user', 'UserController@store');
 Route::get('/documentation', function () {
     return view('documentation.documentation');
 });
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
