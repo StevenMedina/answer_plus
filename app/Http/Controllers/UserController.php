@@ -19,7 +19,13 @@ class UserController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('user.index', compact('users'));
+
+        if ( !empty( $users ) ) {
+            return view('user.index', compact('users'));
+        } else {
+            $users = array("message" => "No hay usuarios en este momento registrados");
+            return view('user.index', compact('users'));
+        }
     }
 
     /**
