@@ -4,6 +4,7 @@
         <title>Error 404</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 
         <style>
@@ -41,6 +42,7 @@
     <body>
         <div class="container">
             <div class="content">
+                <i class="material-icons" style="font-size: 100px;">report_problem</i>
                 <div class="title">Error 404, Pagina no encontrada.</div>
                 <a class="btn btn-default" href="/">Retornar</a>
             </div>

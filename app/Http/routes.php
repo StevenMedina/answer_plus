@@ -13,6 +13,7 @@
 
 // Controller and route 'Home'
 Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
 
 // Controller and route 'User'
 Route::resource('user', 'UserController');
@@ -28,5 +29,3 @@ Route::get('/documentation', function () {
 });
 
 Route::auth();
-
-Route::get('/home', 'HomeController@index');
