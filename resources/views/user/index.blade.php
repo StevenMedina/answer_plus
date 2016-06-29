@@ -3,11 +3,11 @@
 @section('content')
     <h1>Todos los usuarios</h1>
 
-    @if ( $users['message'] )
+    @if ( !empty( $data ) )
         <div class="col m12 s12">
             <div class="card green-palete">
                 <div class="center card-content">
-                    <span class="card-title">{{ $users['message'] }}</span>
+                    <span class="card-title">{{ $data['message'] }}</span>
                 </div>
                 <div class="center card-action">
                     <a href="{{ url('/') }}" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">replay</i></a>
@@ -17,7 +17,7 @@
     @else 
         @foreach ( $users as $user )
             <div class="col m6 s12">
-                <div class="card green-palete">
+                <div class="card red lighten-2 white-text">
                     <div class="card-content">
                         <span class="card-title">{{ $user->name }}</span>
                         <p>{{ $user->created_at }}</p>

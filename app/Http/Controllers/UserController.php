@@ -20,12 +20,14 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        if ( !empty( $users ) ) {
-            return view('user.index', compact('users'));
-        } else {
-            $users = array("message" => "No hay usuarios en este momento registrados");
-            return view('user.index', compact('users'));
+        foreach ($users as $user) {
+            if ( !empty( $user->name ) ) {
+                return view('user.index', compact('users'));
+            }
         }
+
+        $data = array("message" => "No hay usuarios en este momento registrados");
+        return view('user.index', compact('data'));
     }
 
     /**

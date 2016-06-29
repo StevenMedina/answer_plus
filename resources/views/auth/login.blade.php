@@ -50,11 +50,11 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary waves-light waves-effect">
                                     <i class="fa fa-btn fa-sign-in"></i> Ingresar
                                 </button>
 
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">¿Perdiste tu contraseña?</a>
+                                <a class="btn red lighten-1 waves-light waves-effect white-text" href="{{ url('/password/reset') }}">¿Perdiste tu contraseña?</a>
                             </div>
                         </div>
                     </form>
