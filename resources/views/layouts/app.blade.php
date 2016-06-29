@@ -69,7 +69,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">Rest API</h5>
+                        <h5 class="white-text">Traninig Plus</h5>
                         <p class="grey-text text-lighten-4">Esto es una API REST Hecha en Laravel, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
                     </div>
                 </div>
