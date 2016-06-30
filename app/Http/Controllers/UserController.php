@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace trainingPlus\Http\Controllers;
 
 use DB;
-use App\User;
+use trainingPlus\User;
 use Illuminate\Http\Request;
-use App\Http\Requests;
+use trainingPlus\Http\Requests;
 use Carbon\Carbon;
 
 class UserController extends Controller
@@ -15,6 +15,11 @@ class UserController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     public function index()
     {
