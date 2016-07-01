@@ -53,19 +53,7 @@ class UserController extends Controller
      */
     public function store(Request $request, User $user)
     {
-        // DB::table('users')->insert($request->all());
-
-        DB::table('users')->insert([
-            'name'          => $request->name,
-            'user'          => $request->user,
-            'password'      => bcrypt($request->password),
-            'email'         => $request->email,
-            'created_at'    => Carbon::now(),
-            'updated_at'    => Carbon::now(),
-            '_token'        => $request->_token
-        ]);
-
-        return view('user.show', compact('user'));
+        //
     }
 
     /**

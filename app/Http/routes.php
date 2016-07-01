@@ -11,6 +11,16 @@
 |
 */
 
+/**
+ * Api Routes
+ */
+
+$api = app('Dingo\Api\Routing\Router');
+
+$api->version('v1', function ( $api ) {
+	$api->get('users/{id}', 'App\Api\Controllers\UserController@show');
+});
+
 // Controller and route 'Home'
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
