@@ -32,7 +32,7 @@ return [
     |
     */
 
-    'subtype' => env('API_SUBTYPE', 'rest_api'),
+    'subtype' => env('API_SUBTYPE', 'trainingPlus'),
 
     /*
     |--------------------------------------------------------------------------
@@ -122,7 +122,7 @@ return [
     |
     */
 
-    'debug' => env('API_DEBUG', false),
+    'debug' => env('API_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------

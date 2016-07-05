@@ -42,6 +42,12 @@ $app->singleton(
 );
 
 /*
+$app['Dingo\Api\Auth\Auth']->extend('oauth', function ( $app ) {
+	return new Dingo\Api\Auth\Provider\JWT($app['Tymon\JWTAuth\JWTAuth']);
+});
+*/
+
+/*
 |--------------------------------------------------------------------------
 | Return The Application
 |--------------------------------------------------------------------------

@@ -159,6 +159,11 @@ return [
         trainingPlus\Providers\AuthServiceProvider::class,
         trainingPlus\Providers\EventServiceProvider::class,
         trainingPlus\Providers\RouteServiceProvider::class,
+
+        /**
+         * Dingo API 
+         */
+        Dingo\Api\Provider\LaravelServiceProvider\::class,
     ],
 
     /*
