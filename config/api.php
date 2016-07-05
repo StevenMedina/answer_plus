@@ -69,7 +69,7 @@ return [
     |
     */
 
-    'domain' => env('API_DOMAIN', 'api.restapi.com'),
+    'domain' => env('API_DOMAIN', 'api.trainingPlus.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -82,7 +82,7 @@ return [
     |
     */
 
-    'name' => env('API_NAME', 'Rest Api'),
+    'name' => env('API_NAME', 'trainingPlus'),
 
     /*
     |--------------------------------------------------------------------------
@@ -183,7 +183,7 @@ return [
     */
 
     'throttling' => [
-
+    
     ],
 
     /*
