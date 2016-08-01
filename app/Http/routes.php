@@ -33,9 +33,10 @@ Route::resource('user', 'UserController');
 Route::get('/user', 'UserController@index');
 Route::get('/user/{user}', 'UserController@show');
 Route::post('/user', 'UserController@store');
+// Profile
+Route::get('/user/{user}/profle', 'UserController@showProfile');
 
 // Documentacion
-
 Route::get('/documentation', function () {
     return view('documentation.documentation');
 });
