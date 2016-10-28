@@ -3,6 +3,7 @@
 namespace AnswerPLus\Http\Controllers;
 
 use DB;
+use Auth;
 use AnswerPLus\User;
 use Illuminate\Http\Request;
 use AnswerPLus\Http\Requests;
@@ -65,6 +66,19 @@ class UserController extends Controller
     public function show(User $user)
     {
         return view('user.show', compact('user'));
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function showProfile(User $user)
+    {
+        $user = Auth::user();
+
+        return view( 'user.profile', compact( 'user' ) );
     }
 
     /**

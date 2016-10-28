@@ -24,20 +24,20 @@ $api->version('v1', function ( $api ) {
 });
 
 // Controller and route 'Home'
-Route::get('/', 'HomeController@index');
+Route::get('/', 'ForumController@index');
+
+// Controller Forum
+Route::get('/index', 'HomeController@index');
 
 // Controller and route 'User'
 Route::resource('user', 'UserController');
 
 Route::get('/user', 'UserController@index');
-Route::get('/user/{user}', 'UserController@show');
 Route::post('/user', 'UserController@store');
+Route::get('/user/{user}', 'UserController@show');
 
-// Profile
-Route::get('/user/{user}/profle', 'UserController@showProfile');
-
-// Controller Forum
-Route::get('/forum', 'ForumController@index');
+// Show Profile
+Route::get('/user/profile/{user}', 'UserController@showProfile');
 
 // Documentacion
 Route::get('/documentation', function () {
