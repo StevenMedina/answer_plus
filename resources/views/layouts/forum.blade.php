@@ -9,7 +9,6 @@
         <link href="/css/mixins.css" rel="stylesheet">
     </head>
     <body>
-
         <nav>
             <div class="container">
                 <div class="nav-wrapper">
@@ -55,15 +54,9 @@
             </div>
         </nav>
 
-        <main>
-            <div class="container">
-                <div class="content">
-                    <div class="row">
-                        @yield('content')
-                    </div>
-                </div>
-            </div>
-        </main>
+        <section>
+            @yield('content-forum')
+        </section>
 
         <footer class="page-footer">
             <div class="container">

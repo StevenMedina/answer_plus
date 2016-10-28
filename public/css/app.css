@@ -102,4 +102,10 @@ footer.page-footer {
 .input-field .prefix.active {
   color: #26a69a; }
 
-/*# sourceMappingURL=app.css.map */
+/* background head */
+.bg-head-forum {
+  color: rgb(255, 255, 255);
+  padding: 40px 0px;
+  background: url("/img/background/bg-head.png") 100% 100% repeat fixed rgb(238, 131, 110);
+  width: 100%;
+  height: 120px; }

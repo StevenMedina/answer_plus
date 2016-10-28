@@ -11,7 +11,7 @@
         </div>
         <div class="card-action">
             <p class="lead">
-            <p>Aqui podras encontrar la documentacion del Api.</p>
+            <p>Aqui podras encontrar la documentacion de la aplicacion.</p>
                 <a class="btn btn-primary btn-lg" href="/documentation" role="button">Leer más</a>
             </p>
         </div>

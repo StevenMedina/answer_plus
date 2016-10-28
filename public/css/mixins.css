@@ -1,0 +1,220 @@
+/* Mixins Version 1.0 Steven Medina */
+
+.mg-left-s {
+    margin-left: 12px
+}
+
+.mg-left-m {
+    margin-left: 35px
+}
+
+@media (min-width: 0px) {
+    .mg-left-site {
+        margin-left:0
+    }
+}
+
+@media (min-width: 768px) {
+    .mg-left-site {
+        margin-left:70px
+    }
+}
+
+.mg-buttom-site {
+    margin-bottom: 50px
+}
+
+.mg-buttom-site-home {
+    margin-bottom: 55px
+}
+
+@media (min-width: 0px) {
+    .mg-buttom-site-home {
+        margin-bottom:170px
+    }
+}
+
+@media (min-width: 768px) {
+    .mg-buttom-site-home {
+        margin-bottom:55px
+    }
+}
+
+.mg-buttom-xxs {
+    margin-bottom: 5px
+}
+
+.mg-buttom-xs {
+    margin-bottom: 10px
+}
+
+.mg-buttom-s {
+    margin-bottom: 25px
+}
+
+@media (min-width: 0px) and (max-width:400px) {
+    .mg-buttom-s {
+        margin-bottom:6px
+    }
+}
+
+.mg-buttom-xxm {
+    margin-bottom: 25px
+}
+
+.mg-buttom-m {
+    margin-bottom: 50px
+}
+
+.mg-buttom-l {
+    margin-bottom: 180px
+}
+
+.mg-buttom-x30 {
+    margin-bottom: 30px
+}
+
+.mg-buttom-x35 {
+    margin-bottom: 35px
+}
+
+.mg-buttom-x40 {
+    margin-bottom: 40px
+}
+
+.mg-top-site {
+    margin-top: 20px
+}
+
+.mg-top-xxs {
+    margin-top: 5px
+}
+
+.mg-top-xs {
+    margin-top: 10px
+}
+
+.mg-top-s {
+    margin-top: 25px
+}
+
+@media (min-width: 0px) {
+    .mg-top-s {
+        margin-top:6px
+    }
+}
+
+@media (min-width: 400px) {
+    .mg-top-s {
+        margin-top:15px
+    }
+}
+
+@media (min-width: 767px) {
+    .mg-top-s {
+        margin-top:25px
+    }
+}
+
+.mg-top-m {
+    margin-top: 60px
+}
+
+.mg-top-l {
+    margin-top: 160px
+}
+
+.mg-top-menu {
+    margin-top: 150px
+}
+
+@media (min-width: 0px) and (max-width:400px) {
+    .mg-top-menu {
+        margin-top:25px
+    }
+}
+
+@media (min-width: 401px) and (max-width:768px) {
+    .mg-top-menu {
+        margin-top:35px
+    }
+}
+
+.mg-top-x30 {
+    margin-top: 30px
+}
+
+.mg-top-x35 {
+    margin-top: 35px
+}
+
+.mg-top-x40 {
+    margin-top: 40px
+}
+
+.pd-left-site {
+    padding-left: 30px
+}
+
+.pd-left-xxs {
+    padding-left: 6px
+}
+
+.pd-left-xs {
+    padding-left: 13px
+}
+
+.pd-left-s {
+    padding-left: 20px
+}
+
+.pd-buttom-site {
+    padding-bottom: 35px
+}
+
+.pd-buttom-site-max {
+    padding-bottom: 160px
+}
+
+@media (min-width: 0px) and (max-width:768px) {
+    .pd-buttom-site-max {
+        padding-bottom:300px
+    }
+}
+
+.pd-buttom-xs {
+    padding-bottom: 10px
+}
+
+.pd-buttom-s {
+    padding-bottom: 20px
+}
+
+.pd-top-site {
+    padding-top: 35px
+}
+
+.pd-top-xs {
+    padding-top: 10px
+}
+
+.pd-top-s {
+    padding-top: 20px
+}
+
+.box-shadow-line {
+    box-shadow: 0 1px 1px rgba(0,0,0,.05)
+}
+
+.box-center {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.box-shadow {
+    box-shadow: 0 6px 15px -9px rgba(0,0,0,.7)
+}
+
+.box-scroll {
+    overflow: scroll
+}

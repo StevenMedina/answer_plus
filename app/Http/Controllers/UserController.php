@@ -27,12 +27,12 @@ class UserController extends Controller
 
         foreach ($users as $user) {
             if ( !empty( $user->name ) ) {
-                return view('user.index', compact('users'));
+                return view('user.index', compact( 'users' ));
             }
         }
 
-        $data = array("message" => "No hay usuarios en este momento registrados");
-        return view('user.index', compact('data'));
+        $data = array( "message" => "No hay usuarios en este momento registrados" );
+        return view( 'user.index', compact('data') );
     }
 
     /**

@@ -25,7 +25,6 @@ $api->version('v1', function ( $api ) {
 
 // Controller and route 'Home'
 Route::get('/', 'HomeController@index');
-Route::get('/home', 'HomeController@index');
 
 // Controller and route 'User'
 Route::resource('user', 'UserController');
@@ -38,6 +37,7 @@ Route::post('/user', 'UserController@store');
 Route::get('/user/{user}/profle', 'UserController@showProfile');
 
 // Controller Forum
+Route::get('/forum', 'ForumController@index');
 
 // Documentacion
 Route::get('/documentation', function () {
