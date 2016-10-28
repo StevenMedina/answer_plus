@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Events;
+namespace AnswerPLus\Events;
 
 abstract class Event
 {

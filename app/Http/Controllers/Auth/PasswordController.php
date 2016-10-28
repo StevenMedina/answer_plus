@@ -1,8 +1,8 @@
 <?php
 
-namespace trainingPlus\Http\Controllers\Auth;
+namespace AnswerPLus\Http\Controllers\Auth;
 
-use trainingPlus\Http\Controllers\Controller;
+use AnswerPLus\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

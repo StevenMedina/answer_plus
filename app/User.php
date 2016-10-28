@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus;
+namespace AnswerPLus;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

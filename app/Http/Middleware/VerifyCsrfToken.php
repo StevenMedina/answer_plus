@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Http\Middleware;
+namespace AnswerPLus\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

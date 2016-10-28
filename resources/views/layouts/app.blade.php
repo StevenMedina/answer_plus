@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Training Plus</title>
+        <title>AnswerPlus</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,12 +13,12 @@
         <nav>
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="/" class="brand-logo">Training Plus</a>
+                    <a href="/" class="brand-logo">AnswerPlus</a>
                     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Ingreso</a></li>
-                            <li><a href="{{ url('/register') }}">Registro</a></li>
+                            <!--<li><a href="{{ url('/register') }}">Registro</a></li>-->
                             <li><a href="{{ url('/documentation') }}">Acerca de</a></li>
                         @else
                             <li><a href="/">Inicio</a></li>
@@ -36,7 +36,7 @@
                     <ul class="side-nav" id="mobile-demo">
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Ingreso</a></li>
-                            <li><a href="{{ url('/register') }}">Registro</a></li>
+                            <!--<li><a href="{{ url('/register') }}">Registro</a></li>-->
                             <li><a href="{{ url('/documentation') }}">Acerca de</a></li>
                         @else
                             <li class="dropdown">
@@ -69,8 +69,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">Traninig Plus</h5>
-                        <p class="grey-text text-lighten-4">Esto es una API REST Hecha en Laravel, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
+                        <h5 class="white-text">AnswerPLus</h5>
+                        <p class="grey-text text-lighten-4">Esto es un Foro, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Providers;
+namespace AnswerPLus\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

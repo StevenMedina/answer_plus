@@ -1,11 +1,11 @@
 <?php
 
-namespace trainingPlus\Http\Controllers;
+namespace AnswerPLus\Http\Controllers;
 
 use DB;
-use trainingPlus\User;
+use AnswerPLus\User;
 use Illuminate\Http\Request;
-use trainingPlus\Http\Requests;
+use AnswerPLus\Http\Requests;
 use Carbon\Carbon;
 
 class UserController extends Controller

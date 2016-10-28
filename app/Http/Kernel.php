@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Http;
+namespace AnswerPLus\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,11 +24,11 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
-            \trainingPlus\Http\Middleware\EncryptCookies::class,
+            \AnswerPLus\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \trainingPlus\Http\Middleware\VerifyCsrfToken::class,
+            \AnswerPLus\Http\Middleware\VerifyCsrfToken::class,
         ],
 
         'api' => [
@@ -44,10 +44,10 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \trainingPlus\Http\Middleware\Authenticate::class,
+        'auth' => \AnswerPLus\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
-        'guest' => \trainingPlus\Http\Middleware\RedirectIfAuthenticated::class,
+        'guest' => \AnswerPLus\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
 }

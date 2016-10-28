@@ -6,7 +6,7 @@
         <div class="card green-palete">
             <div class="card-content">
                 <h1>Bienvenido!</h1>
-                <p>Esto es una API REST Hecha en Laravel, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
+                <p>Esto es un Foro, Podras Registrarte, Iniciar sesion, Listar usuarios, y hacer peticiones para recibir Documentos JSON.</p>
             </div>
         </div>
         <div class="card-action">

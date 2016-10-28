@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Http\Middleware;
+namespace AnswerPLus\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

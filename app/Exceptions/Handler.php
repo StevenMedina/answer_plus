@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Exceptions;
+namespace AnswerPLus\Exceptions;
 
 use Exception;
 use Illuminate\Validation\ValidationException;

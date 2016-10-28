@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env('APP_ENV', 'development'),
 
     /*
     |--------------------------------------------------------------------------
@@ -125,7 +125,7 @@ return [
         /*
          * Dingo API
          */
-        Dingo\Api\Provider\laravelServiceProvider::class,
+        // Dingo\Api\Provider\laravelServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
@@ -155,10 +155,10 @@ return [
         /*
          * Application Service Providers...
          */
-        trainingPlus\Providers\AppServiceProvider::class,
-        trainingPlus\Providers\AuthServiceProvider::class,
-        trainingPlus\Providers\EventServiceProvider::class,
-        trainingPlus\Providers\RouteServiceProvider::class,
+        AnswerPLus\Providers\AppServiceProvider::class,
+        AnswerPLus\Providers\AuthServiceProvider::class,
+        AnswerPLus\Providers\EventServiceProvider::class,
+        AnswerPLus\Providers\RouteServiceProvider::class,
 
         /**
          * Dingo API 

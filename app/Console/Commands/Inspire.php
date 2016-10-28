@@ -1,6 +1,6 @@
 <?php
 
-namespace trainingPlus\Console\Commands;
+namespace AnswerPLus\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

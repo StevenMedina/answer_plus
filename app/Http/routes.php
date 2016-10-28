@@ -33,8 +33,11 @@ Route::resource('user', 'UserController');
 Route::get('/user', 'UserController@index');
 Route::get('/user/{user}', 'UserController@show');
 Route::post('/user', 'UserController@store');
+
 // Profile
 Route::get('/user/{user}/profle', 'UserController@showProfile');
+
+// Controller Forum
 
 // Documentacion
 Route::get('/documentation', function () {
