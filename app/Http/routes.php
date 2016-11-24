@@ -29,6 +29,27 @@ Route::get('/', 'ForumController@index');
 // Controller Forum
 Route::get('/index', 'HomeController@index');
 
+// Controller Categories
+Route::get('/categories', 'CategoriesController@index');
+Route::get('/categories/{id}', 'CategoriesController@getCategorieById');
+Route::post('/categories/new', 'CategoriesController@create');
+
+
+// COntroller Sub Categories
+Route::get('/subcategories', 'SubCategoriesController@index');
+Route::get('/subcategories/{id}', 'SubCategoriesController@getSubCategoriesById');
+Route::post('/subcategories/new', 'SubCategoriesController@create');
+
+// Controller Question
+Route::get('/questions', 'QuestionController@index');
+Route::get('/questions/{id}', 'QuestionController@getQuestionById');
+Route::post('/questions/new', 'QuestionController@create');
+
+// Controller Answer
+Route::get('/answer', 'AnswerController@index');
+Route::get('/answer/{id}', 'AnswerController@getAnswerById');
+Route::post('/answer/new', 'AnswerController@create');
+
 // Controller and route 'User'
 Route::resource('user', 'UserController');
 

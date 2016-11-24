@@ -68,7 +68,7 @@
 
                         <div class="form-group">
                             <div class="right col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn red lighten-1 waves-light waves-effect white-text">
+                                <button type="submit" class="btn red lighten-1 waves-light waves-effect white-text" value="Registrar">
                                     <i class="fa fa-btn fa-user"></i> Registrar
                                 </button>
                             </div>

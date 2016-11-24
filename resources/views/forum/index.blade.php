@@ -4,7 +4,7 @@
 
 	<div class="bg-head-forum">
 		<h3 class="center-align"><b>Foro</b></h3>
-		<h6 class="center-align">Over a dozen reusable components built to provide iconography, dropdowns, input groups, navigation, alerts, and much more...</h6>
+		<h6 class="center-align">Aplicacion De Preguntas y Respuestas</h6>
 	</div>
 	
 	<div class="container">
@@ -93,4 +93,19 @@
 			</ul>
 		</div>
 	</div>
+
+	<div class="container">
+		<div id="disqus_thread"></div>
+	</div>
+
+<!-- Script Disqus-->
+<script>
+	(function() {
+		var d = document, s = d.createElement('script');
+		s.src = '//answerplus-dev.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+</script>
+                                
 @stop

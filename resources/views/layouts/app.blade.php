@@ -60,6 +60,7 @@
                 <div class="content">
                     <div class="row">
                         @yield('content')
+                        @yield('section-categories')
                     </div>
                 </div>
             </div>
